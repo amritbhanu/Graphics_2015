@@ -1,0 +1,36 @@
+# <filename.obj>       // obj file for the node, if any. NOOBJ if no file.
+# <transform>          // node transform, 16 floats. IDENTITY if identity transform.
+# <num children>     // the number of children for the node. 0 if no children.
+# <blank line>         // white space separates each node.
+
+vase.obj
+2.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.5 0.0 0.0 10.0 0.0 1.0
+7
+
+vase.obj
+1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 -10.0 -5.0 0.0 1.0
+0
+
+vase.obj
+2.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.5 0.0 10.0 0.0 0.0 1.0
+0
+
+vase.obj
+2.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.5 0.0 -50.0 10.0 100.0 1.0
+0
+
+vase.obj
+2.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.5 0.0 -100.0 -10.0 -100.0 1.0
+0
+
+vase.obj
+2.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.5 0.0 100.0 100.0 10.0 1.0
+0
+
+vase.obj
+2.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.5 0.0 10.0 100.0 100.0 1.0
+0
+
+vase.obj
+2.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 0.5 0.0 10.0 100.0 10.0 1.0
+0
