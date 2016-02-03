@@ -1,5 +1,5 @@
 ## Implemented 3D version of Q-Bert game using Webgl.
-If you are not familiar with the game, you can play it online (here) [https://games.yahoo.com/game/qbert-flash.html]
+If you are not familiar with the game, you can play it online [here] (https://games.yahoo.com/game/qbert-flash.html).
 
 ### How to run this program
 
@@ -37,4 +37,4 @@ Extra Credits:-
 
 If the program is slow, please comment out the line number 615 to stop the windows animation frame. The program will render and can be played with normal functionalities.
 
-VIDEO LINK: [https://drive.google.com/file/d/0B6L_ShRNMys7b3hXWjlva2ZyeVU/view?usp=sharing]
+VIDEO LINK: https://drive.google.com/file/d/0B6L_ShRNMys7b3hXWjlva2ZyeVU/view?usp=sharing
