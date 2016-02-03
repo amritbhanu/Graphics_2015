@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="js/glMatrix-0.9.5.min.js"></script>
+<script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+
+<script id="shader-vs" type="x-shader/x-vertex">
+    attribute vec3 aVertexPosition;
+    attribute vec4 aVertexColor;
+    uniform mat4 uMVMatrix;
+    uniform mat4 uPMatrix;
+    varying vec4 vColor;
+    void main(void) {
+        gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+        vColor = aVertexColor;
+    }
+</script>
+<script id="shader-fs" type="x-shader/x-fragment">
+    precision mediump float;
+    varying vec4 vColor;
+    uniform int v_my_bool;
+    uniform vec4 vcolor1;
+    
+    void main(void) {
+	if (v_my_bool ==1) {
+    		gl_FragColor = vcolor1;
+
+
+    		} 
+	else if (v_my_bool ==2){
+gl_FragColor = vcolor1;}
+
+	else {
+        gl_FragColor = vColor;
+	}
+    }
+</script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<title>CSC561 - Starter Project</title>
+</head>
+<body>
+	<canvas id="canvas" width="700" height="600"></canvas>
+	<div id="id1">
+		<p id="lives"></p>
+	</div>
+	<style>
+#id1 {
+	position: absolute;
+	left: 20px;
+	top: 0px;
+	color: yellow;
+	font-size: 30px;
+}
+</style>
+	<div id="id2">
+		<p id="scores"></p>
+	</div>
+	<style>
+#id2 {
+	position: absolute;
+	left: 530px;
+	top: 0px;
+	color: yellow;
+	font-size: 30px;
+}
+</style>
+	<div id="id3">
+		<p id="test"></p>
+	</div>
+	<style>
+#id3 {
+	position: absolute;
+	left: 220px;
+	top: 180px;
+	color: white;
+	font-size: 80px;
+}
+</style>
+<div id="id4">
+		<p id="level"></p>
+	</div>
+	<style>
+#id4 {
+	position: absolute;
+	left: 240px;
+	top: 50px;
+	color: blue;
+	font-size: 30px;
+}
+</style>
+	<br />
+</body>
+</html>
