@@ -614,7 +614,7 @@ function tick() {
 	animate1();
 
 	if (lives > 0 && gamewin() == false) {
-		//window.requestAnimationFrame(tick);
+		window.requestAnimationFrame(tick);
 	}
 
 }
