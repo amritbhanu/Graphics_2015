@@ -33,6 +33,6 @@ If you are not familiar with the game, you can play it online [here] (https://ga
 17. Multiple Lives are also included.
 18. Sounds are enabled for disc rides, q-bert hops and level transition and game overs. For sound, sound.js library has been used.
 
-If the program is slow, please comment out the line number 615 to stop the windows animation frame. The program will render and can be played with normal functionalities.
+If the program is slow, please comment out the line number 617 to stop the windows animation frame. The program will render and can be played with normal functionalities.
 
 VIDEO LINK: https://drive.google.com/file/d/0B6L_ShRNMys7b3hXWjlva2ZyeVU/view?usp=sharing
