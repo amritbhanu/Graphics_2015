@@ -27,13 +27,11 @@ If you are not familiar with the game, you can play it online [here] (https://ga
 11. Scoring is also done where each right hop is +50 and disc rides are +100.
 12. Multiple Lives are also included.
 13. Sounds are enabled for disc rides, q-bert hops and level transition and game overs. For sound, sound.js library has been used.
-
-Extra Credits:-
-1. There are 2 levels. In 2nd level each square needs to be touched twice to win.
-2. Level Transitions are nicely shown with change of gameboard cubes colors.
-3. Scoring is also done where each right hop is +50 and disc rides are +100.
-4. Multiple Lives are also included.
-5. Sounds are enabled for disc rides, q-bert hops and level transition and game overs. For sound, sound.js library has been used.
+14. There are 2 levels. In 2nd level each square needs to be touched twice to win.
+15. Level Transitions are nicely shown with change of gameboard cubes colors.
+16. Scoring is also done where each right hop is +50 and disc rides are +100.
+17. Multiple Lives are also included.
+18. Sounds are enabled for disc rides, q-bert hops and level transition and game overs. For sound, sound.js library has been used.
 
 If the program is slow, please comment out the line number 615 to stop the windows animation frame. The program will render and can be played with normal functionalities.
 
